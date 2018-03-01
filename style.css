@@ -1,0 +1,90 @@
+/**{
+  margin: 0;
+  padding: 0;
+  border: 1px solid red;
+}*/
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: burlywood;
+}
+
+h2 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.logo {
+  max-width: 80px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  font-size: 1.2em;
+  line-height: 1.6em;
+  text-align: center;
+  text-shadow: 4px 4px 6px rgb(73, 73, 73);
+}
+
+.one {
+  grid-area: 1/2/2/-1;
+}
+
+.two {
+  grid-area: 2/1/3/-1;
+}
+
+.three {
+  grid-area: 3/1/4/-1;
+}
+
+.four {
+  grid-area: 4/1/5/-1;
+}
+
+.five {
+  grid-area: 5/1/6/-1;
+}
+
+.six {
+  grid-area: 6/1/7/-1;
+}
+
+@media screen and (min-width:603px) {
+  .one {
+    grid-area: 1/3/2/-1;
+  }
+  .two {
+    grid-area: 2/1/3/-1;
+  }
+  .three {
+    grid-area: 2/1/3/-1;
+  }
+  .four {
+    grid-area: 2/5/3/-1;
+    align-self: center;
+  }
+  .five {
+    grid-area: 2/3/3/5;
+    align-self: center;
+  }
+  .six {
+    grid-area: 2/1/3/3;
+    align-self: center;
+  }
+  h3 {
+    color: rgb(217, 252, 189);
+  }
+}
+
+@media screen and (min-width:1103px) {
+  h1 {
+    font-size: 4em;
+  }
+}
