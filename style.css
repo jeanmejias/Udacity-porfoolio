@@ -54,16 +54,23 @@ h2 {
   grid-area: 6/1/7/-1;
 }
 
+.seven{
+  grid-area: 1/2/1/-1;
+  display: flex;
+  flex-direction: row;
+}
+
 @media screen and (min-width:603px) {
   .one {
-    grid-area: 1/2/2/-1;
-    border: 
+    grid-area: 1/2/2/-1; 
+    background-color: darkcyan;
   }
   .two {
     grid-area: 3/1/4/-1;
   }
   .three {
     grid-area: 1/1/2/-1;
+    background-color: cadetblue;
   }
   .four {
     grid-area: 2/5/3/-1;
