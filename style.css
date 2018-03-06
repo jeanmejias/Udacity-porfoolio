@@ -39,16 +39,10 @@ h2 {
   .one {
     grid-area: 1/1/2/-1;
         padding: 10px;
-        background-image:"img/udacity.svg";
   }
 
   .two {
     grid-area: 1/1/2/-1;
-       background: url(img/img1x1.jpeg) no-repeat center center fixed;
-       -webkit-background-size: cover;
-       -moz-background-size: cover;
-       -o-background-size: cover;
-       background-size: cover;
   }
 
 .three {
@@ -78,6 +72,9 @@ h2 {
       -o-background-size: cover;
       background-size: cover;
 }
+.nine{
+  grid-area: 8/1/9/-1;
+}
 
 @media screen and (min-width:603px) {
   .one {
@@ -106,6 +103,9 @@ h2 {
 }
 .eight{
    grid-area: 3/1/4/-1;
+}
+.nine{
+  grid-area: 4/1/5/-1;
 }
 }
 
