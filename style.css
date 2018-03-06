@@ -35,10 +35,10 @@ h2 {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  
 }
   .one {
     grid-area: 1/1/2/-1;
+        padding: 10px;
   }
 
   .two {
