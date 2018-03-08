@@ -117,7 +117,7 @@ h2 {
     margin-right: auto;
   }
   .seven {
-    grid-area: 1/1/2/3;
+    grid-area: 6/1/7/3;
   }
   .eight {
     grid-area: 4/1/5/-1;
