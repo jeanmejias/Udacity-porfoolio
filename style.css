@@ -49,36 +49,33 @@ h2 {
 }
 
 .three {
-  grid-area: 3/1/4/-1;
+  grid-area: 2/1/3/-1;
 }
 
 .four {
-  grid-area: 4/1/5/-1;
+  grid-area: 3/1/4/-1;
   max-width: 350px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .five {
-  grid-area: 5/1/6/-1;
+  grid-area: 4/1/5/-1;
   max-width: 350px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .six {
-  grid-area: 6/1/7/-1;
+  grid-area: 5/1/6/-1;
   max-width: 350px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.seven {
-  grid-area: 2/1/3/-1;
-}
 
 .eight {
-  grid-area: 7/1/8/-1;
+  grid-area: 6/1/7/-1;
 }
 
 .nine {
@@ -116,9 +113,7 @@ h2 {
     margin-left: auto;
     margin-right: auto;
   }
-  .seven {
-    grid-area: 6/1/7/3;
-  }
+
   .eight {
     grid-area: 4/1/5/-1;
     align-self: center;
